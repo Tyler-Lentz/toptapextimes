@@ -9,4 +9,20 @@
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+	<style>
+		@font-face {
+			font-family: "Roboto-Slab";
+			src: url("/fonts/RobotoSlab.ttf") format('truetype');
+		}
+		:root {
+			--text-light-color: rgb(230, 230, 230);
+			--highlight-color: rgb(36, 104, 194);
+			--bg-dark-color: rgb(2, 11, 43);
+			--bg-light-color: rgb(230, 230, 230);
+			font-family: "Roboto-Slab", sans-serif;
+		}
+		body {
+			background-color: var(--bg-dark-color);
+		}
+	</style>
 </html>
